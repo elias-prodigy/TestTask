@@ -13,7 +13,6 @@ export class Validate {
             })
             .catch((validationError) => {
                 const errorMessages = Object.values(validationError.errors).map((err: any) => err.message);
-                const error = new Error('User validation failed');
                 return next(errorMessages);
         });
     }
