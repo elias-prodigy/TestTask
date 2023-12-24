@@ -1,0 +1,1 @@
+removed useCreateIndex: true from DB connection config since it is deprecated after Mongoose v6
