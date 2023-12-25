@@ -1,4 +1,4 @@
-# File-Based Caching System
+# Task 1: File-Based Caching System
 
 ## Overview
 
@@ -23,16 +23,3 @@ This project implements a file-based caching system with the following features:
 - **File I/O Performance:** File I/O performance is optimized to enhance efficiency in reading and writing cache data.
 
 - **Concurrency Considerations:** Concurrency issues are taken into account to ensure the safe operation of the caching system in a multi-threaded environment.
-
-## Usage
-
-To use the file-based caching system, follow these steps:
-
-1. **Initialize Cache Directory:**
-    - Specify the directory where cache data should be stored.
-
-2. **API Methods:**
-    - Utilize the provided API methods (`set`, `get`, `delete`, and `clear`) to interact with the caching system.
-
-3. **Error Handling:**
-    - Handle errors appropriately to ensure smooth operation.
